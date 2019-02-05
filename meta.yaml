@@ -1,0 +1,28 @@
+# This recipe requires the latest conda build that includes the icon handling fixes
+package:
+  name: "spark-nlp"
+  version: 1.8.1
+
+app:
+  entry: spark-nlp
+  summary: John Snow Labs Spark-NLP is a natural language processing library built on top of Apache Spark ML. It provides simple, performant & accurate NLP annotations for machine learning pipelines, that scale easily in a distributed environment.
+  type: desk
+source:
+    fn: spark-nlp-1.8.1.tar.gz 
+    url: https://files.pythonhosted.org/packages/01/d9/d60ead21d4b8c5e04599ae32c40d126864d6e13209502257cc00d58e7630/spark-nlp-1.8.1.tar.gz
+
+build:
+  number: 3
+
+requirements:
+  build:
+    - python ==3.6.0
+    - python ==2.7.0
+  run:
+    - python ==3.6.0
+    - python ==2.7.0
+
+about:
+  description: Natural Language Understanding Library for Apache Spark.
+  summary: John Snow Labs Spark-NLP is a natural language processing library built on top of Apache Spark ML. It provides simple, performant & accurate NLP annotations for machine learning pipelines, that scale easily in a distributed environment.
+
