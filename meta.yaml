@@ -12,7 +12,8 @@ source:
     url: https://files.pythonhosted.org/packages/01/d9/d60ead21d4b8c5e04599ae32c40d126864d6e13209502257cc00d58e7630/spark-nlp-1.8.1.tar.gz
 
 build:
-  number: 3
+  noarch: generic
+  number: 0
 
 requirements:
   build:
