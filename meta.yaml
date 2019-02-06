@@ -10,7 +10,7 @@ app:
 source:
     fn: spark-nlp-1.8.1.tar.gz 
     url: https://files.pythonhosted.org/packages/01/d9/d60ead21d4b8c5e04599ae32c40d126864d6e13209502257cc00d58e7630/spark-nlp-1.8.1.tar.gz
-
+    sha256: 058ed5184a0ba1a53e3828dd1cdd6813816f33c90f160bad0cc40c75a448ea2d
 build:
   noarch: generic
   number: 0
