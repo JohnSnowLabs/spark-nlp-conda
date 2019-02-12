@@ -39,5 +39,5 @@ conda build .
 Example of uploading Conda package to Anaconda Cloud:
 
 ```bash
-anaconda upload ~/anaconda3/conda-bld/osx-64/spark-nlp-1.8.1-py36_3.tar.bz2 --froce
+anaconda upload ~/anaconda3/conda-bld/noarch/spark-nlp-1.8.2-py36_0.tar.bz2 --froce
 ```
