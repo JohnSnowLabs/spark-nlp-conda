@@ -33,13 +33,7 @@ conda config --set anaconda_upload no
 Build `spark-nlp` from the latest PyPI tar:
 
 ```bash
-conda build .
-````
-
-For different version of Python:
-
-```bash
-conda build . --python=2.7
+conda build . --python=3.6
 ```
 
 Example of uploading Conda package to Anaconda Cloud:
