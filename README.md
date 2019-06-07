@@ -39,7 +39,15 @@ conda build . --python=3.6
 Example of uploading Conda package to Anaconda Cloud:
 
 ```bash
-anaconda upload /anaconda3/conda-bld/noarch/spark-nlp-2.0.2-py36_0.tar.bz2
+anaconda upload /anaconda3/conda-bld/noarch/spark-nlp-version-py36_0.tar.bz2
+```
+
+## Install
+
+Install spark-nlp by using conda:
+
+```bash
+conda install -c johnsnowlabs spark-nlp
 ```
 
 ## Main repository
