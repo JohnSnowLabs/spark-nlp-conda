@@ -1,7 +1,8 @@
 # spark-nlp-conda
 
-[![Version Status](https://anaconda.org/johnsnowlabs/spark-nlp/badges/version.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![Last Update](https://anaconda.org/johnsnowlabs/spark-nlp/badges/latest_release_date.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![Downloads](https://anaconda.org/johnsnowlabs/spark-nlp/badges/downloads.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp/files)
+[![Version Status](https://anaconda.org/johnsnowlabs/spark-nlp/badges/version.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![Last Update](https://anaconda.org/johnsnowlabs/spark-nlp/badges/latest_release_date.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![Downloads](https://anaconda.org/johnsnowlabs/spark-nlp/badges/downloads.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp/files) [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://github.com/JohnSnowLabs/spark-nlp/blob/master/LICENSE)
 
+John Snow Labs Spark NLP is a natural language processing library built on top of Apache Spark ML. It provides simple, performant & accurate NLP annotations for machine learning pipelines, that scale easily in a distributed environment.
 ## Setup
 
 Before you start, install anaconda-client and conda-build:
