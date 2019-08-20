@@ -1,16 +1,16 @@
 # This recipe requires the latest conda build that includes the icon handling fixes
 package:
   name: "spark-nlp"
-  version: 2.1.0
+  version: 2.2.0rc2
 
 app:
   entry: spark-nlp
   summary: Natural Language Understanding Library for Apache Spark.
 
 source:
-    fn: spark-nlp-2.1.0.tar.gz
-    url: https://files.pythonhosted.org/packages/88/85/47299755db5551ac546697a31af5f865eb94bda2f3a2914640caebbc067b/spark-nlp-2.1.0.tar.gz
-    sha256: faf652e869722005b54a27ea22c6c638c4e989f4dd52f9ab5efa5c1b7f30b7ff
+    fn: spark-nlp-2.2.0rc2.tar.gz
+    url: https://files.pythonhosted.org/packages/5d/a3/153cc6cb7f4ce383c3cd70556973602ed45ecde6d1563e34b3c2527c5618/spark-nlp-2.2.0rc2.tar.gz
+    sha256: 3fc798c4406551123d151bc44551d821dba9fdc02e4ef53b6e67207d2729b913
 build:
   noarch: generic
   number: 0
