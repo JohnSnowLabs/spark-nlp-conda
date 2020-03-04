@@ -36,6 +36,7 @@ Build `spark-nlp` from the latest PyPI tar:
 
 ```bash
 conda build . --python=3.6
+conda build . --python=3.7
 ```
 
 Example of uploading Conda package to Anaconda Cloud:
